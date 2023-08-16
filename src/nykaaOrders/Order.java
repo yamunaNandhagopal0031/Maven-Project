@@ -59,6 +59,7 @@ public class Order {
 	  JavascriptExecutor ss =(JavascriptExecutor) driver;
 	  ss.executeScript("window.scrollBy(0,1000)");
 	  Thread.sleep(3000);
+	  System.out.println();
 	  /*WebElement w =driver.findElement(By.xpath("//input[@placeholder='122001']"));
 	  w.click();
 	  w.sendKeys("600099");

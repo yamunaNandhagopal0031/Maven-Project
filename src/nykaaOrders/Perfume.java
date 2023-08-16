@@ -37,6 +37,7 @@ public static void main(String[] args) throws InterruptedException, AWTException
 	    WebElement w =driver.findElement(By.xpath("//input[@placeholder='Search on Nykaa']"));
 	    w.click();
 	    Thread.sleep(1000);
+	    
 	    w.sendKeys("Renee Cosmetics Bloom Perfume");
 	    driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	    Robot r = new Robot();
@@ -84,5 +85,6 @@ public static void main(String[] args) throws InterruptedException, AWTException
         WebElement e =driver.findElement(By.xpath("//input[@placeholder='Enter UPI ID']"));
         e.click();
         e.sendKeys("yamuna000okokicici");
+        
 }      
 }
